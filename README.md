@@ -28,32 +28,7 @@ This project highlights **Object-Oriented Programming (OOP)**, **exception handl
 - Transaction history tracking
 - Operator and user modes
 - Modular, extensible structure
-
----
-
-## 🗂️ Project Structure
-ATMOperations/
-│
-├── src/
-│ ├── com/codegnan/Operations/ATMOperations.java
-│ ├── com/codegnan/Cards/
-│ │ ├── AxisDebitCard.java
-│ │ ├── HDFCDebitCard.java
-│ │ ├── KotakDebitCard.java
-│ │ ├── SBIDebitCard.java
-│ │ └── OperatorCard.java
-│ ├── com/codegnan/Exceptions/
-│ │ ├── InvalidCardException.java
-│ │ ├── InvalidPinException.java
-│ │ ├── IncorrectPinLimitReachedException.java
-│ │ ├── InsufficientFundsException.java
-│ │ ├── InsufficientMachineBalanceException.java
-│ │ └── InvalidAmountException.java
-│ └── com/codegnan/interfaces/IATMService.java
-
-
----
-
+------
 ## 🧩 Preloaded Card Details
 
 | Role | User Name | Card Number | PIN | Balance |
